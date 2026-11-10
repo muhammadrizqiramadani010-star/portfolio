@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Rizqi Ramadani | Portofolio</title>
+<meta name="description" content="Portofolio Muhammad Rizqi Ramadani, lulusan D3 Teknik Informatika Politeknik Negeri Samarinda, bersertifikat BNSP Junior Web Programmer.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2314305C'/%3E%3Cpath d='M9 22V10h7a4 4 0 0 1 0 8h-7M16 18l6 4' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14305C;--blue:#2563EB;--blue2:#1D4ED8;--sky:#E8F0FE;--ink:#0F172A;--mu:#526077;--ln:#E2E8F0;--bg:#FFFFFF;--soft:#F6F8FB;--up:#0B7A55;--dn:#B4410E;--f:"Plus Jakarta Sans",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.7 var(--f)}
+a{color:var(--blue2);text-underline-offset:3px}a:hover{color:var(--navy)}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+h1,h2,h3{margin:0;line-height:1.15;letter-spacing:-.02em}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:#fff;padding:8px 14px;z-index:99;border:2px solid var(--blue)}
+#pg{position:fixed;top:0;left:0;height:3px;width:0;background:var(--blue);z-index:60}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--ln)}
+header .w{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 24px;padding-top:10px;padding-bottom:10px}
+.brand{font-weight:800;font-size:17px;color:var(--navy);text-decoration:none}
+nav ul{display:flex;flex-wrap:wrap;gap:2px 6px;list-style:none;margin:0;padding:0}
+nav a{display:block;padding:8px 12px;border-radius:8px;color:var(--mu);text-decoration:none;font-weight:600;font-size:15px}
+nav a:hover{background:var(--soft);color:var(--ink)}nav a.on{background:var(--sky);color:var(--blue2)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:10px;font-weight:700;font-size:15.5px;text-decoration:none;border:1.5px solid var(--navy);cursor:pointer;font-family:var(--f);background:none;color:var(--navy)}
+.btn.m{background:var(--navy);color:#fff}.btn.m:hover{background:var(--blue2);border-color:var(--blue2);color:#fff}
+.btn.o:hover{background:var(--sky)}
+.hero{padding:64px 0 48px;background:linear-gradient(180deg,var(--soft),var(--bg))}
+.hero .w{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:8px;background:var(--sky);color:var(--blue2);font-weight:700;font-size:14px;padding:6px 14px;border-radius:99px;margin:0 0 20px}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--up)}
+h1{font-size:clamp(38px,5.6vw,62px);font-weight:800;color:var(--navy)}
+.lead{font-size:19px;color:var(--mu);margin:20px 0 28px;max-width:31em}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.card{background:#fff;border:1px solid var(--ln);border-radius:16px;padding:24px}
+.lab{font-weight:700;font-size:14px;color:var(--mu);margin:0 0 4px}
+.xp h2{font-size:20px;margin-bottom:4px}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 20px}
+.seg button{font:600 14px var(--f);padding:7px 13px;border-radius:99px;border:1.5px solid var(--ln);background:#fff;color:var(--mu);cursor:pointer}
+.seg button:hover{border-color:var(--blue);color:var(--blue2)}
+.seg button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.bw{margin:0 0 14px}.bw div{display:flex;justify-content:space-between;font-size:14.5px;font-weight:600;margin-bottom:5px}
+.tk{height:16px;background:var(--soft);border-radius:8px;overflow:hidden}
+.fl{height:100%;width:0;border-radius:8px;transition:width .7s cubic-bezier(.2,.7,.2,1)}
+.a22{background:#9DB4D8}.a24{background:var(--blue)}
+.dl{display:inline-block;font-weight:800;font-size:22px}.dl.u{color:var(--up)}.dl.n{color:var(--dn)}
+.xp small{display:block;color:var(--mu);font-size:13.5px;line-height:1.5;margin-top:10px}
+.stats{border-block:1px solid var(--ln)}
+.stats .w{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.stats div{padding:26px 18px 26px 0}
+.stats b{display:block;font-size:40px;font-weight:800;color:var(--navy);line-height:1.1;letter-spacing:-.02em}
+.stats span{font-size:14.5px;color:var(--mu)}
+section.s{padding:76px 0 0}
+.hd{margin-bottom:30px;max-width:640px}
+.hd h2{font-size:clamp(28px,3.6vw,38px);font-weight:800;color:var(--navy)}
+.hd p{margin:10px 0 0;color:var(--mu)}
+.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:22px}
+.pj{display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+.pj:hover{border-color:var(--blue);transform:translateY(-3px)}
+.pj h3{font-size:23px;margin:0 0 4px;color:var(--navy)}
+.meta{font-size:14px;color:var(--mu);margin:0 0 14px}
+.pj p{margin:0 0 12px}
+.tg{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:6px 0 18px;padding:0}
+.tg li{background:var(--soft);border:1px solid var(--ln);border-radius:6px;padding:2px 10px;font-size:13.5px;font-weight:600;color:var(--navy)}
+.lk{display:flex;flex-wrap:wrap;gap:6px 22px;font-weight:700;margin-top:auto}
+.st{display:grid;grid-template-columns:240px 1fr;gap:22px;padding:22px}
+.tabs{display:grid;gap:6px;align-content:start}
+.tabs button{text-align:left;font:600 15.5px var(--f);padding:12px 14px;border-radius:10px;border:1.5px solid transparent;background:var(--soft);color:var(--mu);cursor:pointer}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected=true]{background:var(--navy);color:#fff}
+.pn h3{font-size:22px;color:var(--navy);margin-bottom:8px}.pn p{margin:0 0 10px;color:var(--mu)}
+.pn b{color:var(--ink)}
+.row{display:grid;grid-template-columns:170px 1fr;gap:4px 28px;padding:20px 0;border-top:1px solid var(--ln)}
+.row:last-child{border-bottom:1px solid var(--ln)}
+.row time{font-weight:700;font-size:15px;color:var(--blue2)}
+.row h3{font-size:19px;margin-bottom:4px}.row p{margin:0;color:var(--mu);max-width:42em}
+.sk{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.sk .card{padding:20px}.sk h3{font-size:18px;color:var(--navy);margin-bottom:6px}.sk p{margin:0;color:var(--mu);font-size:15.5px}
+.end{margin:84px 0 0;background:var(--navy);color:#fff;border-radius:24px;padding:56px 40px}
+.end h2{font-size:clamp(30px,4.4vw,48px);font-weight:800;margin-bottom:12px}
+.end p{color:#C9D6F0;margin:0 0 26px;max-width:32em}
+.end .btn{border-color:#fff;color:#fff}.end .btn.m{background:#fff;color:var(--navy)}.end .btn.m:hover{background:var(--sky);color:var(--navy);border-color:var(--sky)}
+.end .btn.o:hover{background:rgba(255,255,255,.12)}
+#cp{font-size:14.5px;color:#BFF3DC;margin-left:6px;min-height:1.4em;display:inline-block}
+.end .cta{align-items:center}
+footer{padding:36px 0 44px;color:var(--mu);font-size:14px}
+footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px}
+@media(max-width:860px){.hero .w,.st{grid-template-columns:1fr}.row{grid-template-columns:1fr}.end{padding:38px 24px}.tabs{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.hero{padding-top:40px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fl{transition:none}.pj:hover{transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#isi">Lewati ke isi</a><div id="pg"></div>
+<header><div class="w">
+<a class="brand" href="#atas">Rizqi Ramadani</a>
+<nav aria-label="Menu utama"><ul>
+<li><a href="#proyek">Proyek</a></li><li><a href="#proses">Proses</a></li><li><a href="#kredensial">Kredensial</a></li><li><a href="#jejak">Jejak</a></li><li><a href="#keahlian">Keahlian</a></li><li><a href="#kontak">Kontak</a></li>
+</ul></nav>
+</div></header>
+
+<main id="isi">
+<section class="hero" id="atas"><div class="w">
+<div>
+<p class="tag"><i></i>Terbuka untuk magang dan kerja di Samarinda</p>
+<h1>Muhammad Rizqi Ramadani</h1>
+<p class="lead">Lulusan D3 Teknik Informatika yang membangun aplikasi web dan dashboard dari data nyata. Berpengalaman di data instansi pemerintah, penulis jurnal ilmiah, dan bersertifikat BNSP Junior Web Programmer.</p>
+<div class="cta"><a class="btn m" href="#proyek">Lihat proyek</a><a class="btn o" href="#kontak">Hubungi saya</a></div>
+</div>
+<div class="card xp" aria-labelledby="xt">
+<p class="lab">Coba sendiri</p>
+<h2 id="xt">Pergeseran pemakaian kontrasepsi di Anggana</h2>
+<div class="seg" id="seg" role="group" aria-label="Pilih metode kontrasepsi"></div>
+<div class="bw"><div><span>2022</span><span id="v22"></span></div><div class="tk"><div class="fl a22" id="b22"></div></div></div>
+<div class="bw"><div><span>2024</span><span id="v24"></span></div><div class="tk"><div class="fl a24" id="b24"></div></div></div>
+<span class="dl" id="dl" aria-live="polite"></span>
+<small>Rata-rata peserta per bulan. Data asli dari Tugas Akhir saya, bersumber dari laporan SIGA BKKBN Kecamatan Anggana.</small>
+</div>
+</div></section>
+
+<div class="stats"><div class="w">
+<div><b data-to="3.56" data-d="2" data-s="%">3,56%</b><span>rata-rata kesalahan perkiraan (MAPE)</span></div>
+<div><b data-to="36" data-d="0" data-s="">36</b><span>bulan data SIGA BKKBN diolah</span></div>
+<div><b data-to="3638" data-d="0" data-s="">3.638</b><span>puncak peserta KB yang diperkirakan, Des 2025</span></div>
+</div></div>
+
+<section class="s" id="proyek"><div class="w">
+<div class="hd"><h2>Proyek</h2><p>Dua proyek yang berangkat dari masalah nyata: data instansi yang perlu dipahami, dan absensi yang rawan titip.</p></div>
+<div class="g2">
+<article class="card pj">
+<h3>Dashboard Peramalan Peserta KB</h3>
+<p class="meta">Tugas Akhir, Politeknik Negeri Samarinda, 2026</p>
+<p>Aplikasi web untuk memantau tren dan memperkirakan jumlah peserta KB di Kecamatan Anggana, termasuk pergeseran tujuh jenis kontrasepsi. Hasilnya bisa membantu Balai Penyuluhan KB merencanakan program dan kebutuhan alat.</p>
+<p>Hasilnya perkiraan, bukan kepastian: data hanya 36 bulan dari satu kecamatan.</p>
+<ul class="tg"><li>Python</li><li>Streamlit</li><li>Pandas</li><li>Plotly</li><li>Prophet</li></ul>
+<div class="lk"><a href="https://ta-kb-anggana.streamlit.app">Buka aplikasi</a><a href="https://github.com/muhammadrizqiramadani010-star/ta-kb-anggana">Kode di GitHub</a></div>
+</article>
+<article class="card pj">
+<h3>Sistem Absensi Online Berbasis Web</h3>
+<p class="meta">Politeknik Negeri Samarinda, 2024 (terbit di jurnal 2025)</p>
+<p>Sistem absensi mahasiswa yang memeriksa kehadiran lewat lokasi GPS dan pengenalan wajah untuk mengurangi titip absen dan salah catat. Dikembangkan dengan metode Waterfall dan koneksi aman HTTPS.</p>
+<p>Hasilnya: pencatatan lebih efisien, pemakaian kertas berkurang, dan risiko manipulasi data lebih kecil.</p>
+<ul class="tg"><li>Aplikasi web</li><li>GPS</li><li>Pengenalan wajah</li><li>HTTPS</li></ul>
+<div class="lk"><a href="https://doi.org/10.36040/jati.v9i1.12389">Baca artikel jurnalnya</a></div>
+</article>
+</div>
+</div></section>
+
+<section class="s" id="proses"><div class="w">
+<div class="hd"><h2>Proses di balik Tugas Akhir</h2><p>Pilih tahap untuk melihat apa yang saya kerjakan.</p></div>
+<div class="card st">
+<div class="tabs" id="tabs" role="tablist" aria-label="Tahap pengerjaan"></div>
+<div class="pn" id="pn" role="tabpanel" aria-live="polite"></div>
+</div>
+</div></section>
+
+<section class="s" id="kredensial"><div class="w">
+<div class="hd"><h2>Kredensial</h2><p>Bukti yang bisa diperiksa.</p></div>
+<div class="g2">
+<article class="card pj">
+<h3>Penulis pertama artikel jurnal</h3>
+<p class="meta">JATI (Jurnal Mahasiswa Teknik Informatika), Vol. 9 No. 1, 2025, hlm. 1564-1571</p>
+<p>“Sistem Absensi Online Mahasiswa Berbasis Web dengan Perekaman Wajah dan GPS di Politeknik Negeri Samarinda Jurusan Teknologi Informasi.”</p>
+<div class="lk"><a href="https://doi.org/10.36040/jati.v9i1.12389">doi.org/10.36040/jati.v9i1.12389</a></div>
+</article>
+<article class="card pj">
+<h3>Junior Web Programmer, BNSP</h3>
+<p class="meta">Melalui LSP Politeknik Negeri Samarinda, 24 Juni 2026, berlaku 3 tahun. No. Reg. TIK.291.0085 2026</p>
+<p>Delapan unit kompetensi: struktur data, interface pengguna, instalasi perangkat pemrograman, penulisan kode sesuai panduan, pemrograman terstruktur, penggunaan library, dokumentasi kode, dan debugging.</p>
+</article>
+</div>
+</div></section>
+
+<section class="s" id="jejak"><div class="w">
+<div class="hd"><h2>Jejak</h2><p>Pendidikan, pengalaman kerja, dan kegiatan kampus.</p></div>
+<div>
+<div class="row"><time>2023 - 2026</time><div><h3>D3 Teknik Informatika</h3><p>Politeknik Negeri Samarinda, Jurusan Teknologi Informasi.</p></div></div>
+<div class="row"><time>April - Mei 2025</time><div><h3>Praktik Kerja Lapangan</h3><p>Balai Penyuluhan KB Kecamatan Anggana: administrasi, pengelolaan data, dan membantu pengembangan aplikasi web.</p></div></div>
+<div class="row"><time>2024 dan 2025</time><div><h3>Koordinator Catur, PORSENI</h3><p>Pekan Olahraga dan Seni Kampus Polnes: panitia koordinator catur (2024) dan koordinator catur (2025).</p></div></div>
+<div class="row"><time>2024 dan 2025</time><div><h3>Anggota PDD</h3><p>Polnes Sport Competition Season IV (2024) dan Training Persidangan Dewan Perwakilan Mahasiswa (2025).</p></div></div>
+</div>
+</div></section>
+
+<section class="s" id="keahlian"><div class="w">
+<div class="hd"><h2>Keahlian</h2></div>
+<div class="sk">
+<div class="card"><h3>Pemrograman</h3><p>Python, pemrograman terstruktur, debugging, dokumentasi kode.</p></div>
+<div class="card"><h3>Data</h3><p>Pandas, NumPy, Plotly, pengolahan dan visualisasi data, Microsoft Excel.</p></div>
+<div class="card"><h3>Web</h3><p>Streamlit, pengembangan aplikasi web, Git dan GitHub.</p></div>
+<div class="card"><h3>Bekerja</h3><p>Teliti, cepat belajar, terbiasa bekerja mandiri maupun dalam tim.</p></div>
+</div>
+</div></section>
+
+<div class="w"><section class="end" id="kontak">
+<h2>Mari bicara.</h2>
+<p>Ada kesempatan magang, kerja, atau kolaborasi? Saya senang mendengarnya.</p>
+<div class="cta"><a class="btn m" href="mailto:muhammadrizqiramadani010@gmail.com">Kirim email</a><button class="btn o" id="cpb" type="button">Salin alamat email</button><a class="btn o" href="https://github.com/muhammadrizqiramadani010-star">GitHub</a><span id="cp" role="status"></span></div>
+</section></div>
+</main>
+<footer><div class="w"><span>© 2026 Muhammad Rizqi Ramadani. Samarinda, Kalimantan Timur.</span><a href="#atas">Kembali ke atas</a></div></footer>
+
+<script>
+(function(){
+var $=function(i){return document.getElementById(i)};
+var rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* data asli Tugas Akhir */
+var D=[["Suntik",1513.67,1863.17,"+23,10%",1],["Pil",892.50,703.50,"\u221221,18%",0],["Kondom",71.50,83.17,"+16,32%",1],["Implant",18.75,33.17,"+76,89%",1],["IUD",101.67,140.50,"+38,18%",1],["MOP",86.00,123.92,"+44,09%",1],["MOW",5.00,0.00,"\u2212100%",0]];
+function f(n){return n.toLocaleString("id-ID",{minimumFractionDigits:2,maximumFractionDigits:2})}
+var seg=$("seg");
+D.forEach(function(x,i){var b=document.createElement("button");b.type="button";b.textContent=x[0];b.onclick=function(){pick(i)};seg.appendChild(b)});
+function pick(i){var x=D[i],m=Math.max(x[1],x[2]);
+[].forEach.call(seg.children,function(b,k){b.setAttribute("aria-pressed",k===i)});
+$("b22").style.width=(x[1]/m*100)+"%";$("b24").style.width=(x[2]/m*100)+"%";
+$("v22").textContent=f(x[1])+" peserta";$("v24").textContent=f(x[2])+" peserta";
+$("dl").textContent="Perubahan "+x[3];$("dl").className="dl "+(x[4]?"u":"n")}
+setTimeout(function(){pick(3)},250);
+/* tahap pengerjaan, dari laporan TA */
+var T=[["Kumpulkan data","Data bulanan peserta KB Modern dari <b>SIGA BKKBN</b>, diperoleh lewat Balai Penyuluhan KB Kecamatan Anggana, Januari 2022 sampai Desember 2024: <b>36 data bulanan</b>."],
+["Bersihkan","Data dirapikan dan dicek data janggalnya dengan metode <b>IQR</b> supaya angka ekstrem tidak merusak hasil perkiraan."],
+["Buat model","Perkiraan dibuat dengan <b>Prophet</b>, metode deret waktu yang menangkap tren dan pola musiman pada data bulanan."],
+["Uji","Model diuji dengan <b>Leave-One-Out Cross Validation</b>: MAE 101,61, RMSE 143,37, dan <b>MAPE 3,56%</b>. Karena datanya hanya 36 bulan dari satu kecamatan, hasilnya perkiraan, bukan kepastian."],
+["Tampilkan","Hasilnya dibuat jadi dashboard <b>Streamlit</b> dengan 8 tahap, dari data mentah, perkiraan 12 bulan, sampai perbandingan tujuh jenis kontrasepsi."]];
+var tabs=$("tabs");
+T.forEach(function(x,i){var b=document.createElement("button");b.type="button";b.setAttribute("role","tab");b.textContent=(i+1)+". "+x[0];b.onclick=function(){show(i)};tabs.appendChild(b)});
+function show(i){[].forEach.call(tabs.children,function(b,k){b.setAttribute("aria-selected",k===i)});
+$("pn").innerHTML="<h3>"+T[i][0]+"</h3><p>"+T[i][1]+"</p>"}
+show(0);
+/* hitung naik */
+function fmt(n,d){return n.toLocaleString("id-ID",{minimumFractionDigits:d,maximumFractionDigits:d})}
+var cs=document.querySelectorAll("[data-to]");
+function run(el){var to=+el.dataset.to,d=+el.dataset.d,s=el.dataset.s,t0=null;
+if(rm){el.textContent=fmt(to,d)+s;return}
+(function st(t){if(!t0)t0=t;var p=Math.min((t-t0)/1100,1),e=1-Math.pow(1-p,3);el.textContent=fmt(to*e,d)+s;if(p<1)requestAnimationFrame(st)})(performance.now())}
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target)}})},{threshold:.6});cs.forEach(function(c){io.observe(c)})}
+/* menu aktif + progres */
+var secs=["proyek","proses","kredensial","jejak","keahlian","kontak"].map($),links=document.querySelectorAll("nav a");
+function sp(){var y=scrollY+120,cur=-1;secs.forEach(function(s,i){if(s.offsetTop<=y)cur=i});
+links.forEach(function(a,i){a.classList.toggle("on",i===cur)});
+var h=document.documentElement.scrollHeight-innerHeight;$("pg").style.width=(h>0?scrollY/h*100:0)+"%"}
+addEventListener("scroll",sp,{passive:true});sp();
+/* salin email */
+$("cpb").onclick=function(){var m="muhammadrizqiramadani010@gmail.com",ok=function(){$("cp").textContent="Alamat email tersalin"};
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(m).then(ok,function(){$("cp").textContent=m})}else{$("cp").textContent=m}}
+})();
+</script>
+</body>
+</html>
